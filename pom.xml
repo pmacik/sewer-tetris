@@ -3,7 +3,7 @@
    <modelVersion>4.0.0</modelVersion>
 
    <groupId>org.pmacik</groupId>
-   <artifactId>sewertetris</artifactId>
+   <artifactId>sewer-tetris</artifactId>
    <version>1.0.7</version>
    <packaging>jar</packaging>
 
@@ -47,6 +47,17 @@
                   </configuration>
                </execution>
             </executions>
+         </plugin>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <configuration>
+               <descriptors>
+                  <descriptor>${basedir}/src/main/assembly/bin.xml</descriptor>
+                  <descriptor>${basedir}/src/main/assembly/src.xml</descriptor>
+               </descriptors>
+               <skipAssembly>false</skipAssembly>
+            </configuration>
          </plugin>
       </plugins>
    </build>

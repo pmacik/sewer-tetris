@@ -96,11 +96,6 @@ public class TetrisFrame extends JFrame implements KeyListener {
    private JCheckBoxMenuItem mniDiffHard;
 
    /**
-    * Položka uživatelského menu - Zvuky.
-    */
-   private JCheckBoxMenuItem mniSoundControl;
-
-   /**
     * Dialogové okno pro zobrazování tabulky nejlepších výsledků.
     */
    private HighScoresDialog highScoresDialog;
@@ -117,13 +112,6 @@ public class TetrisFrame extends JFrame implements KeyListener {
     * aby se dostal do tabulky nejlepších.
     */
    private LoadPlayersNameDialog loadPlayersNameDialog;
-
-   /**
-    * Na základě této hodnoty se buď zvuky přehrávají (pokud nabývá hodnoty
-    * <code>true</code>), nebo nepřehrávají (pokud obsahuje hodnotu
-    * <code>false</code>).
-    */
-   private boolean playSounds = true;
 
    /**
     * Indikátor stavu klávesy. Pokud je nějaká klávesa(y) stisknuta(y),
@@ -217,15 +205,6 @@ public class TetrisFrame extends JFrame implements KeyListener {
       mnbMain.add(mnuGame);
 
       mnuOptions = new JMenu("Možnosti");
-      mniSoundControl = new JCheckBoxMenuItem("Zvuky");
-      mniSoundControl.setSelected(playSounds);
-      mniSoundControl.addActionListener(new ActionListener() {
-         public void actionPerformed(ActionEvent e) {
-            playSounds = !playSounds;
-            mniSoundControl.setState(playSounds);
-         }
-      });
-      mnuOptions.add(mniSoundControl);
 
       mnuDifficulty = new JMenu("Obtížnost");
       mnuOptions.add(mnuDifficulty);
@@ -410,17 +389,6 @@ public class TetrisFrame extends JFrame implements KeyListener {
     */
    public LoadPlayersNameDialog getLoadPlayersNameDialog() {
       return loadPlayersNameDialog;
-   }
-
-   /**
-    * Poskytne informaci o tom, jestli je přehrávání zvuků zapnuté či vypnuté.
-    *
-    * @return <code>true</code>, pokud je přehrávání zvuků v aplikaci
-    * zapnuto<br>
-    * <code>false</code>, pokud je přehrávání zvuků vypnuto.
-    */
-   public boolean playSounds() {
-      return playSounds;
    }
 
    /**
