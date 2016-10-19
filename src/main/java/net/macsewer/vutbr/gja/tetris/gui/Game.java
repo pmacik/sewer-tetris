@@ -30,6 +30,10 @@ public class Game extends JPanel {
    private static final long serialVersionUID = 6507546054144002594L;
 
    /**
+    * Verze hry.
+    */
+   public static final String VERSION = "1.0.7";
+   /**
     * Výchozí perioda časovače v ms.
     */
    public static final int INITIAL_TIMER_PERIOD = 800;

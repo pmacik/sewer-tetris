@@ -331,7 +331,7 @@ public class TetrisFrame extends JFrame implements KeyListener {
     * Inicializace GUI
     */
    private void initGUI() {
-      setTitle("Sewer's Tetris v 1.0.6");
+      setTitle("Sewer's Tetris v " + Game.VERSION);
       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
       game = new Game(stoneBox, this);
