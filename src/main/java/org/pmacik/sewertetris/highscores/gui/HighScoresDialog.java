@@ -1,7 +1,7 @@
-package net.macsewer.vutbr.gja.tetris.highscores.gui;
+package org.pmacik.sewertetris.highscores.gui;
 
-import net.macsewer.vutbr.gja.tetris.gui.WindowManipulator;
-import net.macsewer.vutbr.gja.tetris.highscores.HighScores;
+import org.pmacik.sewertetris.gui.WindowManipulator;
+import org.pmacik.sewertetris.highscores.HighScores;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;

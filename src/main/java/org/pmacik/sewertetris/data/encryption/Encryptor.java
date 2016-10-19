@@ -1,4 +1,4 @@
-package net.macsewer.vutbr.gja.tetris.data.encryption;
+package org.pmacik.sewertetris.data.encryption;
 
 /**
  * Třída, která umí (de)šifrovat String.

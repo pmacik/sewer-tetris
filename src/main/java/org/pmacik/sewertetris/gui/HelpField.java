@@ -1,6 +1,6 @@
-package net.macsewer.vutbr.gja.tetris.gui;
+package org.pmacik.sewertetris.gui;
 
-import net.macsewer.vutbr.gja.tetris.stones.AbstractStone;
+import org.pmacik.sewertetris.stones.AbstractStone;
 
 import java.awt.Color;
 import java.awt.Graphics;

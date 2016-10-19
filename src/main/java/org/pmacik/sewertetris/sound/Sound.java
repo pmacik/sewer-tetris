@@ -1,4 +1,4 @@
-package net.macsewer.vutbr.gja.tetris.sound;
+package org.pmacik.sewertetris.sound;
 
 import java.applet.Applet;
 import java.applet.AudioClip;

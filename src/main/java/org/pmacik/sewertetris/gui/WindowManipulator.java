@@ -1,4 +1,4 @@
-package net.macsewer.vutbr.gja.tetris.gui;
+package org.pmacik.sewertetris.gui;
 
 import java.awt.GraphicsEnvironment;
 import java.awt.Window;

@@ -1,4 +1,4 @@
-package net.macsewer.vutbr.gja.tetris.highscores;
+package org.pmacik.sewertetris.highscores;
 
 /**
  * Jeden záznam nejlepšího výsledku hry.

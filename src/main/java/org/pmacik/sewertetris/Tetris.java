@@ -1,6 +1,6 @@
-package net.macsewer.vutbr.gja.tetris;
+package org.pmacik.sewertetris;
 
-import net.macsewer.vutbr.gja.tetris.gui.TetrisFrame;
+import org.pmacik.sewertetris.gui.TetrisFrame;
 
 /**
  * Hlavní spouštěcí třída hry Sewer's Tetris.

@@ -1,6 +1,6 @@
-package net.macsewer.vutbr.gja.tetris.highscores.gui;
+package org.pmacik.sewertetris.highscores.gui;
 
-import net.macsewer.vutbr.gja.tetris.highscores.HighScores;
+import org.pmacik.sewertetris.highscores.HighScores;
 
 import javax.swing.table.AbstractTableModel;
 

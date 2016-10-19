@@ -1,9 +1,9 @@
-package net.macsewer.vutbr.gja.tetris.gui;
+package org.pmacik.sewertetris.gui;
 
-import net.macsewer.vutbr.gja.tetris.sound.Sound;
-import net.macsewer.vutbr.gja.tetris.stones.AbstractStone;
-import net.macsewer.vutbr.gja.tetris.stones.Stone;
-import net.macsewer.vutbr.gja.tetris.stones.StoneBox;
+import org.pmacik.sewertetris.sound.Sound;
+import org.pmacik.sewertetris.stones.AbstractStone;
+import org.pmacik.sewertetris.stones.Stone;
+import org.pmacik.sewertetris.stones.StoneBox;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

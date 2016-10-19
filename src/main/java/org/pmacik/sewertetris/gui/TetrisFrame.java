@@ -1,10 +1,10 @@
-package net.macsewer.vutbr.gja.tetris.gui;
+package org.pmacik.sewertetris.gui;
 
-import net.macsewer.vutbr.gja.tetris.highscores.HighScores;
-import net.macsewer.vutbr.gja.tetris.highscores.gui.HighScoresDialog;
-import net.macsewer.vutbr.gja.tetris.highscores.gui.LoadPlayersNameDialog;
-import net.macsewer.vutbr.gja.tetris.stones.Stone;
-import net.macsewer.vutbr.gja.tetris.stones.StoneBox;
+import org.pmacik.sewertetris.highscores.HighScores;
+import org.pmacik.sewertetris.highscores.gui.HighScoresDialog;
+import org.pmacik.sewertetris.highscores.gui.LoadPlayersNameDialog;
+import org.pmacik.sewertetris.stones.Stone;
+import org.pmacik.sewertetris.stones.StoneBox;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;

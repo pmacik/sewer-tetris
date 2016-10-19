@@ -1,6 +1,6 @@
-package net.macsewer.vutbr.gja.tetris.highscores;
+package org.pmacik.sewertetris.highscores;
 
-import net.macsewer.vutbr.gja.tetris.data.encryption.Encryptor;
+import org.pmacik.sewertetris.data.encryption.Encryptor;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

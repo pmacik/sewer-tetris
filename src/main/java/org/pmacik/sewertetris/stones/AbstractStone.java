@@ -1,4 +1,4 @@
-package net.macsewer.vutbr.gja.tetris.stones;
+package org.pmacik.sewertetris.stones;
 
 /**
  * Abstraktní předek pro kostkty pro tetris.

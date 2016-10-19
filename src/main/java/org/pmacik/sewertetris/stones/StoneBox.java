@@ -1,6 +1,6 @@
-package net.macsewer.vutbr.gja.tetris.stones;
+package org.pmacik.sewertetris.stones;
 
-import net.macsewer.vutbr.gja.tetris.gui.TetrisFrame;
+import org.pmacik.sewertetris.gui.TetrisFrame;
 
 import java.util.Vector;
 
