@@ -32,7 +32,7 @@ public class Game extends JPanel {
    /**
     * Verze hry.
     */
-   public static final String VERSION = "1.0.7";
+   public static final String VERSION = "1.1";
    /**
     * Výchozí perioda časovače v ms.
     */
